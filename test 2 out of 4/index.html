@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test 2/4</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+
+
+
+<body>
+  <div class="top-part">
+    <div class="test-text-container">
+      <div class="the-random-number"></div>  
+      <div class="number-from-input"></div>
+    </div>
+  </div>
+
+  <div class="bottom-part">
+    <div class="keypad-container">
+      <div class="row-1 row">
+        <div id="tall-1" class="input-tall" onclick="typeInNumber(1)" value="1"></div>
+        <div id="tall-2" class="input-tall" onclick="typeInNumber(2)" value="2"></div>
+        <div id="tall-3" class="input-tall" onclick="typeInNumber(3)" value="3"></div>
+      </div>
+
+      <div class="row-2 row">
+        <div id="tall-4" class="input-tall" onclick="typeInNumber(4)" value="4"></div>
+        <div id="tall-5" class="input-tall" onclick="typeInNumber(5)" value="5"></div>
+        <div id="tall-6" class="input-tall" onclick="typeInNumber(6)" value="6"></div>
+      </div>
+
+      <div class="row-3 row">
+        <div id="tall-7" class="input-tall" onclick="typeInNumber(7)" value="7"></div>
+        <div id="tall-8" class="input-tall" onclick="typeInNumber(8)" value="8"></div>
+        <div id="tall-9" class="input-tall" onclick="typeInNumber(9)" value="9"></div>
+      </div>
+
+      <div class="row-4 row">
+        <div id="delete-button" onclick="remove()" class="input-tall" value="d">Delete</div>
+        <div id="tall-0" class="input-tall" onclick="typeInNumber(0)" value="0"></div>
+        <div id="enter-button" onclick="nextNumber()" class="input-tall" value="e">Enter</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="start-knapp">
+    <div class="overlay-over-start-button-2" onclick="startTesten(3)"></div>
+    <div class="overlay-over-start-button"></div>
+  </div>
+
+  <div class="countdown">
+    3
+  </div>
+</body>
+</html>
