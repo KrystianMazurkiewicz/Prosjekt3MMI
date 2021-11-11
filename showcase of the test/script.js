@@ -161,6 +161,7 @@ function typeInNumber(number) {
 
   if (numberFromInput.innerText.charAt(charAt) != theRandomNumber.innerText.charAt(charAt)) {
     tests[subtestIndex - 1].feil = tests[subtestIndex - 1].feil + 1
+    numberFromInput.style.backgroundColor = "rgb(166, 111, 255)"
   }
 }
 
@@ -183,7 +184,7 @@ function hideNumbers() {
   numberFromInput.innerText = ""
   theRandomNumber.innerText = ""
   numberFromInput.style.backgroundColor = "rgba(255, 255, 255, 0.897)"
-  if (tests[subtestIndex] === undefined) return theRandomNumber.innerText = "Du er nå ferdig med test 1/4"
+  if (tests[subtestIndex] === undefined) return theRandomNumber.innerText = "Dette var et eksempel av hvordan testene kommer til å se ut"
   changeKeybaord()
 }
 
