@@ -196,7 +196,7 @@ function hideNumbers() {
   numberFromInput.innerText = ""
   theRandomNumber.innerText = ""
   numberFromInput.style.backgroundColor = "rgba(255, 255, 255, 0.897)"
-  if (tests[subtestIndex] === undefined) return theRandomNumber.innerText = "Du er nå ferdig med test 1/4"
+  if (tests[subtestIndex] === undefined) return theRandomNumber.innerText = "Du er nå ferdig med test 1, del 4/4"
   changeKeybaord()
 }
 
