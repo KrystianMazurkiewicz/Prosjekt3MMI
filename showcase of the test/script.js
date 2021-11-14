@@ -130,7 +130,9 @@ function showNumber() {
 function remove() {
   if (!(startKnapp.style.display == "none")) return 
   if (freeze == true) return
+  if (numberFromInput.innerText == "") return
 
+  subtestIndex--
   numberFromInput.style.backgroundColor = "rgba(255, 255, 255, 0.897)"
   numberFromInput.innerText = numberFromInput.innerText.slice(0, numberFromInput.innerText.length - 1)
 }
